@@ -1,0 +1,10 @@
+.editor-styles-wrapper {
+	padding: 0 20px 0 20px !important; 
+}
+
+
+/* Force height below of Gutenberg Editor to be only 50px vs. 40vh, and force the Gutenberg block to be fullwidth */
+.wp-block{
+    max-width: 1400px !important;
+}
+
