@@ -3,7 +3,7 @@
 /*
 Plugin Name: Wide Editor
 Plugin URI: https://scottsaunders.design
-Description: Makes the default WordPress editor wider.
+Description: Makes the default WordPress Gutenberg editor wider.
 Version: 1.0
 Author: Scott Saunders
 Author URI: https://scottsaunders.design
