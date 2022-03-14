@@ -13,6 +13,6 @@ Text Domain: scottsaunders.design
 
 
 function wide_editor_js() {
-		wp_enqueue_style( 'wide_editor', plugins_url( 'wide_admin.css', __FILE__ ) );
+	wp_enqueue_style( 'wide_editor', plugins_url( 'wide_admin.css', __FILE__ ) );
 	}
-	add_action('admin_footer', 'wide_editor_js');
+add_action('admin_footer', 'wide_editor_js');
