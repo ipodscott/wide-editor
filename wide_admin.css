@@ -11,13 +11,16 @@
 /* Widget editor styles */
 
 
-element.style {
-}
 .blocks-widgets-container .wp-block-widget-area__inner-blocks.editor-styles-wrapper {
     margin: 0;
     padding: 0;
 }
 
+.edit-widgets-main-block-list  {
+	padding: 0 20px 0 20px !important;
+	}
+	
 .blocks-widgets-container .editor-styles-wrapper{
-	max-width: unset;
+	max-width: 1400px;
+	width: 100%;
 }
