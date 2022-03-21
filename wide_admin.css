@@ -8,3 +8,16 @@
     max-width: 1400px !important;
 }
 
+/* Widget editor styles */
+
+
+element.style {
+}
+.blocks-widgets-container .wp-block-widget-area__inner-blocks.editor-styles-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.blocks-widgets-container .editor-styles-wrapper{
+	max-width: unset;
+}
