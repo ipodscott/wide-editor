@@ -24,3 +24,17 @@
 	max-width: 1400px;
 	width: 100%;
 }
+
+
+.wp-block.is-selected{
+	transition:all 0.3s;
+	border: none;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.wp-block .wp-block.is-selected{
+	border: none !important;
+	box-shadow: none !important;
+}
+
