@@ -38,3 +38,31 @@
 	box-shadow: none !important;
 }
 
+/* Block Editor Toolbar style modifications*/
+
+.block-editor-block-toolbar{
+	background-color: #000;
+	color: #fff;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+.block-editor-block-toolbar svg{
+	fill: #fff;
+}
+
+.block-editor-block-icon svg{
+	color: #fff;
+}
+
+.block-editor-block-icon .dashicon{
+	color: #fff;
+}
+
+.block-editor-block-parent-selector{
+	border-radius: 6px;
+}
+
+.block-editor-block-parent-selector button{
+	background-color: #000;
+	border-radius: 6px;
+}
