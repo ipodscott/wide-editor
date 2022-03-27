@@ -59,18 +59,16 @@
 }
 
 .block-editor-block-parent-selector{
-	border-radius: 6px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
 }
 
 .block-editor-block-parent-selector button{
 	background-color: #000;
-	border-radius: 6px;
 }
-
 
 .components-button.has-icon .dashicon {
 	color: #fff;
-	}
+}
 	
 .components-button[aria-disabled=true]{
 	opacity: 0.7;
