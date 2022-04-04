@@ -1,4 +1,4 @@
-# Wide Format Gutenberg Editor
+# Wide Format Gutenberg Editor WordPress Plugin
 Makes the new WordPress backend editor wider
 
 ## Before
