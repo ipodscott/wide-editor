@@ -26,50 +26,73 @@
 }
 
 
-.wp-block.is-selected{
-	transition:all 0.3s;
-	border: none;
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
-}
-
-
-.wp-block .wp-block.is-selected{
-	border: none !important;
-	box-shadow: none !important;
-}
-
-/* Block Editor Toolbar style modifications*/
-
-.block-editor-block-toolbar{
+/* Block Editor Toolbar style modifications. Comment/Uncomment the code below to invert the inline Gutenberg blocks inline toolbar editor. */
+	
+	
+.block-editor-block-contextual-toolbar .block-editor-block-toolbar{
 	background-color: #000;
 	color: #fff;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
 }
 
-.block-editor-block-toolbar svg{
+.block-editor-block-contextual-toolbar .components-button.block-editor-block-types-list__item svg{
+	fill: #000;
+}
+
+.block-editor-block-contextual-toolbar .block-editor-block-toolbar svg{
 	fill: #fff;
 }
 
-.block-editor-block-icon svg{
+.block-editor-block-contextual-toolbar .block-editor-block-icon svg{
 	color: #fff;
 }
 
-.block-editor-block-icon .dashicon{
+.block-editor-block-contextual-toolbar .block-editor-block-icon .dashicon{
 	color: #fff;
 }
 
-.block-editor-block-parent-selector{
+.block-editor-block-contextual-toolbar .block-editor-block-parent-selector{
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
 }
 
-.block-editor-block-parent-selector button{
+.block-editor-block-contextual-toolbar .block-editor-block-parent-selector button{
 	background-color: #000;
 }
 
-.components-button.has-icon .dashicon {
+.block-editor-block-contextual-toolbar .components-button.has-icon .dashicon {
 	color: #fff;
 }
 	
-.components-button[aria-disabled=true]{
+.block-editor-block-contextual-toolbar .components-button[aria-disabled=true]{
 	opacity: 0.7;
 }
+
+.block-editor-block-contextual-toolbar .block-editor-block-types-list__list-item .block-editor-block-icon .dashicon{
+	color: #000;
+}
+
+
+.block-editor-block-contextual-toolbar .block-editor-block-toolbar__block-controls .block-editor-block-switcher .components-dropdown-menu__toggle .block-editor-block-icon svg{
+	fill: #fff;
+}
+
+.block-editor-block-contextual-toolbar .block-editor-block-icon.has-colors svg {
+	fill: #000;
+}
+
+.block-editor-block-contextual-toolbar .components-tab-button span{
+	color: #b7b7b7;
+	display: inline-block;
+	padding-left:5px !important;
+	padding-right: 5px !important;
+	background-color: transparent;
+}
+
+.block-editor-block-contextual-toolbar .components-tab-button.is-pressed span{
+	color: #fff;
+	border: none;
+	padding-left:5px;
+	padding-right: 5px;
+}
+
+*/
