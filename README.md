@@ -1,5 +1,5 @@
 # Wide Format Gutenberg Editor WordPress Plugin
-Makes the new WordPress backend editor wider
+Makes the new WordPress backend editor wider.
 
 ## Before
 ![Before](https://hazzardlabs.com/github_images/before_1.jpg)
