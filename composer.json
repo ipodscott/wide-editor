@@ -1,0 +1,17 @@
+{
+    "name": "ipodscott/wide-editor",
+    "description": "Makes the new WordPress backend editor wider.",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Ipodscott\\WideEditor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Scott Saunders",
+            "email": "scott.saunders@paceco.com"
+        }
+    ],
+    "require": {}
+}
